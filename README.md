@@ -1,7 +1,7 @@
 # Resource Allocator Discord Bot
 Simple bot that can copy all messages from a channel to a different channel as long as the bot has access to them (bot must be in the server(s) containing the channels and have adequate permissions to view, read, and send messages in them)
 
-# Installation/Setup
+## Installation/Setup
 First, start off by cloning the repository using git, then cd into the cloned directory and install the required dependencies using pip:
 
 `git clone https://github.com/UX0l0l/RADB.git`
