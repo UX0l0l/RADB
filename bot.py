@@ -26,11 +26,9 @@ async def copy_previous_messages():
         async for message in source_channel.history(limit=None, oldest_first=True):  # Fetch all messages from the source channel
             if message.content:  # Check if the message has text content
                 await target_channel.send(message.content)
-                print(message.content)
             elif message.attachments:  # Check if the message has attachments
                 for attachment in message.attachments:
                     await target_channel.send(attachment.url)
-                    print(attachment.url)
     else:
         print("One or more channels were not found.")
 
