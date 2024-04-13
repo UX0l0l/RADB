@@ -4,11 +4,13 @@ Simple bot that can copy all messages from a channel to a different channel as l
 ## Installation/Setup
 First, start off by cloning the repository using git, then cd into the cloned directory and install the required dependencies using pip:
 
-`git clone https://github.com/UX0l0l/RADB.git`
+```bash
+git clone https://github.com/UX0l0l/RADB.git
 
-`cd RADB`
+cd RADB
 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
+```
 
 Second, go to the [Discord developers page](https://discord.com/developers/applications/) and create a new application. Then, proceed to set up the bot, add whatever permissions you need in the installation tab, then proceed to invite it to the servers you need it in using the Discord provided install link. You can also add whatever custom name, profile picture, etc to your bot during this step.
 
