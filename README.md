@@ -6,9 +6,7 @@ First, start off by cloning the repository using git, then cd into the cloned di
 
 ```bash
 git clone https://github.com/UX0l0l/RADB.git
-
 cd RADB
-
 pip install -r requirements.txt
 ```
 
