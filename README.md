@@ -1,3 +1,6 @@
+[![Python](https://img.shields.io/badge/Python-3.12-red.svg?style=for-the-badge)](https://www.python.org/)
+[![Discord.py](https://img.shields.io/badge/discord.py-blueviolet.svg?style=for-the-badge)](https://discord.com)
+
 # Resource Allocator Discord Bot
 Simple bot that can copy all messages from a channel to a different channel as long as the bot has access to them (bot must be in the server(s) containing the channels and have adequate permissions to view, read, and send messages in them)
 
