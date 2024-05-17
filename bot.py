@@ -11,8 +11,8 @@ intents.messages = True
 
 bot = commands.Bot(command_prefix='!', intents=intents) # Could be any prefix
 
-SCID = int(os.getenv('SCID'))
-TCID = int(os.getenv('TCID'))
+SCID = int(os.getenv('SOURCE_CHANNEL_ID'))
+TCID = int(os.getenv('TARGET_CHANNEL_ID'))
 
 @bot.event
 async def on_ready():
